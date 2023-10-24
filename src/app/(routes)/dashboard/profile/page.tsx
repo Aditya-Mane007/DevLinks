@@ -199,7 +199,7 @@ const Profile = () => {
                 <>
                   <div className="w-full h-auto px-10 my-10 flex max-md:px-5 border border-l-0 border-r-0 border-t-0 py-3 max-md:flex items-center ">
                     <label htmlFor="lastName" className="w-[50%] text-left">
-                      First Name
+                      Last Name
                     </label>
                     <h1 className="w-[50%] text-right">{data.lastName}</h1>
                   </div>

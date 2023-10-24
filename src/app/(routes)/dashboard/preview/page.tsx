@@ -58,7 +58,6 @@ const Preview = () => {
             onClick={(e) => {
               const btn = document.querySelector(".copy-btn")!
               btn.innerHTML = "Copied!"
-              // e.target.innerHTML = "Copied!"
               copyLink(
                 `https://dev-links-qfthlaek6-aditya-mane007.vercel.app/share/${data.username}`
               )
