@@ -60,8 +60,7 @@ const Preview = () => {
               btn.innerHTML = "Copied!"
               // e.target.innerHTML = "Copied!"
               copyLink(
-                // `https://devlinks.onrender.com/${user && user.username}`
-                `http://localhost:3000/share/${data.username}`
+                `https://dev-links-qfthlaek6-aditya-mane007.vercel.app/share/${data.username}`
               )
             }}
           >
