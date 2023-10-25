@@ -103,7 +103,7 @@ function page() {
       confirmPassword.toString().length >= 8
     ) {
       if (password !== confirmPassword) {
-        alert("Password does not match")
+        toast.error("Password do not match")
       } else {
         try {
           setLoading(true)
@@ -120,6 +120,8 @@ function page() {
           setLoading(false)
         }
       }
+    } else {
+      toast.error("Password should be at least 8 characters")
     }
   }
 
